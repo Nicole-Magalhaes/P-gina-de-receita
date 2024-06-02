@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Source Serif 4", serif;
+}
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    background: #F9F4FB;
+}
+
+main {
+    margin: 5.3rem 3.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.4rem;
+    color: #A54328;
+
+    max-width: 32rem;
+    margin-inline: auto;
+    padding: 5.6rem 4.0rem;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+img {
+    margin-block: 3.2rem;
+    width: 100%;
+}
+
+.recipe h1,
+.ingredients h2 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    line-height: 3.6rem;
+}
+
+.recipe p,
+.ingredients li,
+.ingredients strong {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: normal;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column; 
+}
+
+.ingredients h2 {
+    margin-bottom: 3.2rem;
+}
+
+.ingredients strong {
+    font-weight: bold;
+}
+
+.ingredients ul {
+    margin-bottom: 2.4rem;
+}
+
+button {
+    background: #A54328;
+    height: 3.2rem;
+    width: 9.4rem;
+    border-radius: 0.6rem;
+    border: none;
+    color: #FFFFFF;
+    font-size: 1.0rem;
+    line-height: 1.7rem;
+    padding: 0.8rem 1.2rem;
+    margin-top: 3.2rem;
+}
+
+ul, ol {
+    padding-left: 2.4rem;
+}
+
+@media (min-width:1120px) {
+    body {
+        background-image: url(img.src/old-paper-texture-beige-craft-cardboard-vintage-canvas-surface\ 1.jpg);
+    }
+    main {
+        flex-direction: row;
+        gap: 16.0rem;
+        max-width: fit-content;
+        padding: 9rem 6rem;
+    }
+
+    .recipe {
+        max-width: 43.5rem;
+    }
+
+    .ingredients {
+        max-width: 52.5rem;
+    }
+
+    h1, h2 {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    p, li, strong {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    button {
+        width: 13.3rem;
+        height: 4.5rem;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        padding: 1rem 2rem;
+    }
+}
